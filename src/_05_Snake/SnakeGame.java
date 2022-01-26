@@ -103,7 +103,18 @@ public class SnakeGame implements ActionListener, KeyListener {
          * 
          * If an arrow key is pressed, set the snake's direction accordingly.
          */
+        switch (e.getKeyCode()) {
+        	case KeyEvent.VK_UP:{
+        		
+        	}case KeyEvent.VK_DOWN:{
+        		
+        	}case KeyEvent.VK_RIGHT:{
+        		
+        	}case KeyEvent.VK_LEFT:{
+        		
+        	}
         
+        }
         
 
     }
